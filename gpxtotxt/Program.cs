@@ -195,9 +195,10 @@ namespace gpxtotxt
                                     {
                                         for(int i = 0; i< docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes.Count; i++)
                                         {
-                                             wptDane= docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
+                                             
                                             if (docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].Name == "name")
                                             {
+                                                wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
                                                 arrayWPT[z][h] = wptDane + ";";
                                             }
                                         }
@@ -221,9 +222,10 @@ namespace gpxtotxt
                                     {
                                         for (int i = 0; i < docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes.Count; i++)
                                         {
-                                            wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
+                                            
                                             if (docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].Name == "ele")
                                             {
+                                                wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
                                                 arrayWPT[z][h] = wptDane + ";";
                                             }
                                         }
@@ -234,9 +236,10 @@ namespace gpxtotxt
                                     {
                                         for (int i = 0; i < docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes.Count; i++)
                                         {
-                                            wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
+                                            
                                             if (docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].Name == "pdop")
                                             {
+                                                wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
                                                 arrayWPT[z][h] = wptDane + ";";
                                             }
                                         }
@@ -247,9 +250,10 @@ namespace gpxtotxt
                                     {
                                         for (int i = 0; i < docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes.Count; i++)
                                         {
-                                            wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
+                                           
                                             if (docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].Name == "time")
                                             {
+                                                wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
                                                 arrayWPT[z][h] = wptDane.Substring(0, wptDane.IndexOf("T"))+ ";";
                                             }
                                         }
@@ -260,9 +264,10 @@ namespace gpxtotxt
                                     {
                                         for (int i = 0; i < docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes.Count; i++)
                                         {
-                                            wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
+                                           
                                             if (docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].Name == "time")
                                             {
+                                                wptDane = docList[j].GetElementsByTagName("wpt")[z - nrColWPT].ChildNodes[i].InnerText;
                                                 arrayWPT[z][h] = wptDane.Substring(wptDane.IndexOf("T")+1, wptDane.IndexOf("Z")- wptDane.IndexOf("T")-1)+";";
                                             }
                                         }
