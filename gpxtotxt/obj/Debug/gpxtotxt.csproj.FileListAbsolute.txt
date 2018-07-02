@@ -1,0 +1,6 @@
+D:\Projekty\c#\gpxtotxt\gpxtotxt\bin\Debug\gpxtotxt.exe.config
+D:\Projekty\c#\gpxtotxt\gpxtotxt\bin\Debug\gpxtotxt.exe
+D:\Projekty\c#\gpxtotxt\gpxtotxt\bin\Debug\gpxtotxt.pdb
+D:\Projekty\c#\gpxtotxt\gpxtotxt\obj\Debug\gpxtotxt.csprojResolveAssemblyReference.cache
+D:\Projekty\c#\gpxtotxt\gpxtotxt\obj\Debug\gpxtotxt.exe
+D:\Projekty\c#\gpxtotxt\gpxtotxt\obj\Debug\gpxtotxt.pdb
